@@ -191,9 +191,6 @@ p a {
     text-decoration: none;
 }
 
-.calendar {
-    margin-left: px;
-}
 
 hr {
     border-top: 3px dotted white;
@@ -205,12 +202,39 @@ hr {
 
 .actu-img a {
     position: absolute;
-    margin-left: px;
+    margin-left: 12px;
+}
+
+@media(max-width:400px) {
+
+    .actu-img a {
+            border:5px solid red;
+        }
+
+.actu-img a {
+    float:left;
+}
 }
 
 /* ------ css grande taille ------ */
 
 @media (min-width: 768px) {
+
+
+  .container {
+      background: black;
+      width: 65%;
+      margin: 70px auto;
+      position: relative;
+      height: 1000em;
+      z-index: 7000;
+      border-top: 5px solid black;
+      border-bottom: 100px solid black;
+      height: auto;
+      overflow: hidden;
+  }
+
+
     #logo {
         margin-top: 40px;
         max-width: 955px;
@@ -283,6 +307,38 @@ hr {
         margin-top: 10px;
         float: right;
     }
+}
+
+/* ==========================================================================
+      ARTISTES
+========================================================================== */
+
+#bands{
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#bands picture img {
+  margin-top:30px;
+  width: 100%;
+}
+
+/* ------ css grande taille ------ */
+
+@media (min-width: 768px) {
+
+  #bands{
+    max-width: 800px ;
+    margin: 0 auto;
+  }
+
+  #bands picture img {
+    margin-top:30px;
+    width: 100%;
+  }
+
+
+
 }
 
 
