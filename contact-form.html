@@ -12,6 +12,8 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/contact-form.css">
+
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -20,7 +22,81 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>new flippin' freaks site comming soon !</p>
+        <header>
+
+            <div id="logo">
+                <picture>
+                    <source srcset="images/logo.png" media="(min-width: 768px)">
+                    <img src="images/logo-flippin.png" alt="logo">
+                </picture>
+            </div>
+        </header>
+
+
+        <nav>
+            <ul id="menu">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="artistes.html">Artistes</a>
+                </li>
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
+                <li>
+                    <a href="contact-form.html">Contact</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <div class="container">
+          <div class="resaux">
+        <h1>  Suis le Flippin' sur les résaux : <h1>
+        	<div class="buttons">
+        	<a href="https://flippinfreaks.bandcamp.com/"><img id="bandcamp" src="images/bandcamp-128.png" alt=""></a>
+        	<a href="https://www.youtube.com/channel/UC0pcKUuyGFT6f99ewriBe1g"><img id="youtube" src="images/test2-128.png" alt=""></a>
+        	<a href="https://www.facebook.com/FlippinFreaksCollectif/?fref=ts"><img id="facebook" src="images/test3-128.png"alt=""></a>
+        </div>
+
+        	</div>
+
+
+        <div class="test">
+        	<h1>  Contacte nous par mail ! <h1>
+        </div>
+
+
+
+        		<div id="contact-area">
+
+
+        			<form method="post" action="contactengine.php">
+
+        				<label for="Email"> mets ton mail ici </label>
+        				<input type="text" name="Email" id="Email" />
+
+        				<label for="Name"> ton sujet là</label>
+        				<input type="text" name="Name" id="Name" />
+
+
+        				<label for="Message"> et écris ton message :) </label><br />
+        				<textarea name="Message" rows="20" cols="20" id="Message"></textarea>
+
+        				<input type="submit" name="submit" value="ENVOYER" class="submit-button" />
+        			</form>
+
+        			<div style="clear: both;"></div>
+
+
+        		</div>
+        </div>
+        <!-- END Container -->
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
