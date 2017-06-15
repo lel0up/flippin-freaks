@@ -147,7 +147,7 @@ li:first-child
 
 .container {
     background: black;
-    width: 65%;
+    width: 95%;
     margin: 70px auto;
     position: relative;
     height: 1000em;
@@ -175,6 +175,10 @@ h1, h2, h3 {
     margin-left: 20px;
     margin-right: 20px;
 }
+.actu-detail{
+    margin-top: 50px;
+
+}
 
 p {
     color: white;
@@ -188,7 +192,7 @@ p a {
 }
 
 .calendar {
-    margin-left: 20px;
+    margin-left: px;
 }
 
 hr {
@@ -201,7 +205,7 @@ hr {
 
 .actu-img a {
     position: absolute;
-    margin-left: 6px;
+    margin-left: px;
 }
 
 /* ------ css grande taille ------ */
