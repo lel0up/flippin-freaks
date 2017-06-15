@@ -9,9 +9,12 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
+        <link rel="icon" type="image/png" href="images/flippin'freaks_favicon.png"/>
+
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -20,7 +23,68 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>new flippin' freaks site comming soon !</p>
+
+        <header>
+
+            <div id="logo">
+                <picture>
+                    <source srcset="images/logo.png" media="(min-width: 768px)">
+                    <img src="images/logo-flippin.png" alt="logo">
+                </picture>
+            </div>
+        </header>
+
+
+        <nav>
+            <ul id="menu">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="artistes.html">Artistes</a>
+                </li>
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
+                <li>
+                    <a href="contact-form.html">Contact</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <div class="container">
+
+              <div id="bands">
+
+                  <a href="flanagan.html">
+                <picture>
+                 <source srcset="images/flanagan/flanagan-couv.jpg" media="(min-width: 768px)">
+              <img class="flanagan" src="images/flanagan/petit-flanagan.jpg" alt="flanagan">
+            </picture>
+            </a>
+
+            <a href="th.html">
+          <picture>
+           <source srcset="images/th/couv-th.jpg" media="(min-width: 768px)">
+          <img class="th" src="images/th/petit-th.jpeg" alt="couv-th">
+          </picture>
+          </a>
+
+          <a href="mellow-pillow.html">
+          <picture>
+          <source srcset="images/mellow-pillow/couv-mellow.jpg" media="(min-width: 768px)">
+          <img class="th" src="images/mellow-pillow/petit-mellow.jpg" alt="couv-mellow">
+          </picture>
+          </a>
+
+        </div>
+          </div>
+
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
