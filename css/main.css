@@ -340,6 +340,90 @@ hr {
   #bands picture img {
     width: 100%;
   }
+}
+
+
+  /* ==========================================================================
+        FLANAGAN
+  ========================================================================== */
+
+  .bio, .player, .gallery  {
+   padding-right: 30px;
+   padding-left: 30px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#buttons{
+ padding-top: 10px;
+padding-right: 30px;
+   padding-left: 30px;
+  max-width: 400px;
+  margin: 0 auto;
+
+}
+
+/* ------ css grande taille ------ */
+
+@media (min-width: 768px) {
+
+   .bio {
+       padding-right: 30px;
+      padding-left: 30px;
+    max-width: 800px ;
+    margin: 0 auto;
+}
+
+   #buttons {
+       float: right;
+   padding-right: 30px;
+      padding-left: 30px;
+    max-width: 800px ;
+
+  }
+
+    .player {
+        padding-top:35px;
+       padding-right: 30px;
+      padding-left: 30px;
+    max-width: 800px ;
+    margin: 0 auto;
+}
+.gallery  {
+ padding-right: 30px;
+ padding-left: 30px;
+max-width: 800px;
+margin: 0 auto;
+}
+
+.gallery ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gallery ul li{
+ margin : 10px;
+}
+
+}
+
+
+/* ==========================================================================
+      EVENTS
+========================================================================== */
+
+
+
+/* ==========================================================================
+      CONTACT-FORM
+========================================================================== */
+
+
+
+
+
+
+
 
 
 
