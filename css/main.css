@@ -314,6 +314,8 @@ hr {
 ========================================================================== */
 
 #bands{
+    padding-right: 30px;
+      padding-left: 30px;
   max-width: 400px;
   margin: 0 auto;
 }
@@ -323,23 +325,24 @@ hr {
   width: 100%;
 }
 
+
 /* ------ css grande taille ------ */
 
 @media (min-width: 768px) {
 
   #bands{
+      padding-right: 30px;
+      padding-left: 30px;
     max-width: 800px ;
     margin: 0 auto;
   }
 
   #bands picture img {
-    margin-top:30px;
     width: 100%;
   }
 
 
 
-}
 
 
 /* ==========================================================================
