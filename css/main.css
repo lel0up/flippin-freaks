@@ -467,9 +467,28 @@ td a {
 
 
 /* ==========================================================================
-      CONTACT-FORM
+      ABOUT
 ========================================================================== */
 
+.texte{
+
+padding-right: 30px;
+padding-left: 30px;
+max-width: 400px;
+margin: 0 auto;
+}
+
+
+/* ------ css grande taille ------ */
+
+@media (min-width: 828px) {
+  .texte {
+    padding-right: 0px;
+    padding-left: 0px;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
 
 /* ==========================================================================
    Helper classes
