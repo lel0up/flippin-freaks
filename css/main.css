@@ -408,6 +408,11 @@ hr {
     .gallery ul li {
         margin: 10px;
     }
+
+.videos iframe{
+  margin-bottom:30px;
+}
+
 }
 
 
